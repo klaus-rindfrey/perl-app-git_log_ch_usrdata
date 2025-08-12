@@ -1,0 +1,20 @@
+^\.git\/
+^\.gitignore$
+
+# Makemaker generated files and dirs.
+^MANIFEST\.
+^Makefile$
+^blib/
+^MakeMaker-\d
+^MYMETA\..*
+
+# Module specific files
+\bApp-git_log_ch_usrdata-\d+(?:\.\d+)+\/
+^App-git_log_ch_usrdata-\d+(?:\.\d+)+\.tar\.gz$
+
+
+# Temp, old and emacs backup files.
+~$
+\.old$
+^#.*#$
+^\.#
