@@ -13,7 +13,7 @@ __END__
 
 =head1 NAME
 
-App::git_log_ch_usrdata - The great new App::git_log_ch_usrdata!
+App::git_log_ch_usrdata - Change username and email address in git log
 
 =head1 VERSION
 
@@ -22,7 +22,10 @@ Version 0.01
 
 =head1 DESCRIPTION
 
-This module is just a dummy. See L<git_log_ch_usrdata> instead.
+The username and email address in the Git log can be changed with
+L<git_log_ch_usrdata>. For more information, see the documentation for this
+script.
+
 
 =head1 AUTHOR
 
