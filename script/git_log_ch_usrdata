@@ -93,7 +93,7 @@ __END__
 
 or, shorter:
 
-  git_log_ch_usrdata --oe OLD_EMAIL --ne NEW_EMAIL --nu NEW_USER --nc
+  git_log_ch_usrdata --oe OLD_EMAIL --ne NEW_EMAIL --nu NEW_USER [--nc]
 
 
 =head1 DESCRIPTION
