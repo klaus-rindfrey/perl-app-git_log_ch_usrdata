@@ -114,7 +114,6 @@ README: $PM_File
 \tpod2text lib/App/git_log_ch_usrdata.pm > README
 
 manifest : README
-\t\$(FULLPERL) -MExtUtils::Manifest=mkmanifest -e mkmanifest
 
 distdir: manifest
 dist: manifest

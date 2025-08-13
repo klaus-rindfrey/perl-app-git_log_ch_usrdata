@@ -24,7 +24,7 @@ automatically be notified of progress on your bug as I make changes.
 
 # SEE ALSO
 
-[APP::ghmulti](https://metacpan.org/pod/APP%3A%3Aghmulti), [git\_log\_ch\_usrdata](https://metacpan.org/pod/git_log_ch_usrdata)
+[App::ghmulti](https://metacpan.org/pod/App%3A%3Aghmulti), [git\_log\_ch\_usrdata](https://metacpan.org/pod/git_log_ch_usrdata)
 
 # SUPPORT
 

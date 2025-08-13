@@ -3,7 +3,7 @@ package App::git_log_ch_usrdata;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 1;
@@ -17,7 +17,7 @@ App::git_log_ch_usrdata - Change username and email address in git log
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 
 =head1 DESCRIPTION
@@ -40,7 +40,7 @@ automatically be notified of progress on your bug as I make changes.
 
 =head1 SEE ALSO
 
-L<APP::ghmulti>, L<git_log_ch_usrdata>
+L<App::ghmulti>, L<git_log_ch_usrdata>
 
 
 =head1 SUPPORT

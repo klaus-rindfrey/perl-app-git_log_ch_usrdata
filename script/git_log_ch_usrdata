@@ -116,7 +116,7 @@ the B<C<--no_credentials>> (or B<C<--nc>>) option.
 
 =head1 SEE ALSO
 
-L<APP::ghmulti>, L<APP::git_log_ch_usrdata>
+L<App::ghmulti>, L<App::git_log_ch_usrdata>
 
 
 =head1 LICENSE AND COPYRIGHT
