@@ -90,8 +90,6 @@ my %WriteMakefileArgs =
   );
 
 
-
-
 if ($meta_merge_supported) {
   $WriteMakefileArgs{META_MERGE} =
     {
@@ -132,10 +130,6 @@ delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
   unless eval { ExtUtils::MakeMaker->VERSION('6.52'); 1 };
 delete $WriteMakefileArgs{MIN_PERL_VERSION}
   unless eval { ExtUtils::MakeMaker->VERSION('6.48'); 1 };
-delete $WriteMakefileArgs{META_MERGE}
-  unless eval { ExtUtils::MakeMaker->VERSION('6.46'); 1 };
-delete $WriteMakefileArgs{LICENSE}
-  unless eval { ExtUtils::MakeMaker->VERSION('6.31'); 1 };
 
 WriteMakefile(%WriteMakefileArgs);
 
