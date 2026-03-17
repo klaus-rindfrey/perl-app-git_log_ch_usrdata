@@ -5,11 +5,11 @@ name: Run Module Tests
 on:
   push:
     branches:
-      - main
-      - gh_actions
+      - '**'
   pull_request:
     branches:
       - main
+      - devel
   workflow_dispatch:
     inputs:
       release_test_addn:
