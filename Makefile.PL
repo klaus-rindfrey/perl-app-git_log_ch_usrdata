@@ -56,10 +56,10 @@ my %prereq_build = (
 if ($ENV{AUTHOR_TESTING}) {
   print "Author tests enabled (AUTHOR_TESTING is true)\n";
   add_mods(\%test_requires, {
-                             'Pod::Wordlist'         => '1.27',
-                             'Test::CheckManifest'   => '1.43',
-                             'Test::Pod'             => '1.22',
-                             'Test::Spelling'        => '0.25',
+                             'Pod::Wordlist'  => '1.27',
+                             'Test::Kwalitee' => '1.26',
+                             'Test::Pod'      => '1.22',
+                             'Test::Spelling' => '0.25',
                             }
           );
 }
@@ -68,10 +68,9 @@ if ($ENV{RELEASE_TESTING}) {
   print "Release tests enabled (RELEASE_TESTING is TRUE)\n";
   add_mods(\%test_requires, {
                              'Test::Changes::Strict::Simple' => '0.05',
-                             'Test::CheckManifest'    => '1.43',
-                             'Test::CPAN::Meta'       => '0.25',
-                             'Test::CPAN::Meta::JSON' => '0.16',
-                             'Test::Kwalitee'         => '1.26',
+                             'Test::CheckManifest'           => '1.43',
+                             'Test::CPAN::Meta'              => '0.25',
+                             'Test::CPAN::Meta::JSON'        => '0.16',
                             }
           );
 }
