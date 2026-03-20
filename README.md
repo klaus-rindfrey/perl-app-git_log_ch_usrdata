@@ -4,7 +4,7 @@ App::git\_log\_ch\_usrdata - Change username and email address in git log
 
 # VERSION
 
-Version 0.03
+Version 0.04
 
 # DESCRIPTION
 
@@ -18,8 +18,13 @@ Klaus Rindfrey, `<klausrin at cpan.org.eu>`
 
 # BUGS
 
-Please report any bugs or feature requests to `bug-app-git_log_ch_usrdata at rt.cpan.org`, or through
-the web interface at [https://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-git\_log\_ch\_usrdata](https://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-git_log_ch_usrdata).  I will be notified, and then you'll
+Please report any bugs or feature requests to `bug-app-git_log_ch_usrdata at
+rt.cpan.org`, or through the web interface at
+[https://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-git\_log\_ch\_usrdata](https://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-git_log_ch_usrdata) or
+create a [GitHub
+Issue](https://github.com/klaus-rindfrey/perl-app-git_log_ch_usrdata/issues)
+
+.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 # SEE ALSO
