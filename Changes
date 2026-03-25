@@ -2,6 +2,7 @@ Revision history for distribution App-git_log_ch_usrdata
 
 x.yz    YYYY-MM-DD
 
+      - Removed mispalced/useless test scripts.
       - Fixed test script.
 
 0.04    2026-03-19
