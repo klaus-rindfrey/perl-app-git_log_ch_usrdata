@@ -79,6 +79,5 @@ L<https://github.com/klaus-rindfrey/perl-app-git_log_ch_usrdata>
 
 This software is copyright (c) 2025 by Klaus Rindfrey.
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+License: GNU General Public License, Version 1
 
